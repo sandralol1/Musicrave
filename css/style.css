@@ -13,11 +13,11 @@ html, body {
   background: #0066ff;
   display: grid;
 }
-
+/*Com es col·loquen els elements en el header*/
 .llista__header {
     display: flex;
 }
-
+/*Logotip al header*/
 .logo1 img{
   max-width: 50%;
   display: flex;
@@ -35,7 +35,7 @@ html, body {
   opacity: 0;
   font-size: 0.1%;
 }
-
+/*Com es col·loquen els elements en el header*/
 .nav-underline{
   margin-left: 6%; margin-right:10%; justify-content: flex-end;
 }
@@ -60,7 +60,7 @@ html, body {
   margin-bottom: 1%;
   font-family: 'MiFuente', sans-serif;
 }
-
+/*Mateixes característiques per un grup de texts*/
 .section-title h2, .artdenet h2, .p5js h2, .Intrinsicdesign h2{
   font-weight: bolder;
   margin-top: 4%;
@@ -73,7 +73,7 @@ html, body {
 width: 95%;
 margin: 3%;
 }
-
+/*Modificar característiques card, extret del boostrap.*/
 .card {
   margin-left: 5%;
   margin-right: 5%;
@@ -114,8 +114,7 @@ margin: 3%;
   justify-content: center;
   align-items: center;
 }
-/*INTRINSIC DESIGN */
-
+/*INTRINSIC DESIGN, copiat d'on s'ha extret, amb alguna modificació*/
 ul{
   -webkit-columns: 200px;
      -moz-columns: 200px;
@@ -137,7 +136,7 @@ ul{
 
   li {
     list-style-type: none; }
- 
+ /*canvis en la visualització del quadre dels videos de youtube*/
   .custom-iframe{
     height: 350px;
   }
