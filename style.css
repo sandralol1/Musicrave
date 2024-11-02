@@ -1,0 +1,167 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+
+}
+
+/*HEADER*/
+.header {
+  padding: 0%;
+  border: 0px;
+  background: #0066ff;
+  display: grid;
+}
+
+.llista__header {
+    display: flex;
+}
+
+.logo1 img{
+  max-width: 50%;
+  display: flex;
+  margin-left: 15%;
+  padding-bottom: 0.5em;
+  margin-right: 0%;
+}
+
+.menu {
+  display: flex;
+  width: 2em;
+}
+
+.ocult{
+  opacity: 0;
+  font-size: 0.1%;
+}
+
+.nav-underline{
+  margin-left: 6%; margin-right:10%; justify-content: flex-end;
+}
+
+.nav-item{
+  grid-template-columns: 1fr 1fr;
+}
+
+.bg-body-tertiary1 {
+  --bs-bg-opacity: 0;
+  background-color: #0066ff;
+  margin-left: 6%; 
+  margin-right:10%; 
+  justify-content: flex-end;
+}
+
+
+/*NOVETATS*/
+.section-title {
+  background-color: #ffffff;
+  max-width: 100%;
+  margin-bottom: 1%;
+}
+
+.section-title h2, .artdenet h2, .p5js h2, .Intrinsicdesign h2{
+  font-weight: bolder;
+  margin-top: 4%;
+  color: #0066ff;
+  font-family: 'MiFuente', sans-serif;
+  text-align: center;
+}
+
+.col-md-4 img{
+width: 95%;
+margin: 3%;
+}
+
+.card {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.card-title {
+  font-size: 200%;
+}
+
+.card-body{
+  margin-right: 0%;
+  margin-left: 4%;
+  color: #0066ff;
+}
+
+.card-body-text2{
+  background-color: #0066ff;
+  margin-bottom: 3%;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.card-text1{
+  margin-right: 0%;
+  padding-right: 0%;
+}
+
+.spotify iframe {
+  padding: 1%;
+  max-width: 50%;
+  max-height: auto;
+  justify-content: center; 
+  box-align: center;
+}
+
+.noticenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*INTRINSIC DESIGN */
+
+ul{
+  -webkit-columns: 200px;
+     -moz-columns: 200px;
+          columns: 200px;
+  -webkit-column-break-inside: avoid;
+     page-break-inside: avoid;
+          break-inside: avoid;
+  margin-left: 60px;
+  margin-right: 60px; }
+
+.Intrinsicdesign img {
+  width: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid #0066ff;}
+
+  li {
+    list-style-type: none; }
+ 
+  .custom-iframe{
+    height: 350px;
+  }
+
+/*P5JS*/
+#pxx {
+  display: flex;            
+  justify-content: center;     
+  align-items: center;        
+  width: 100%;                 
+  margin: 0 auto;              
+  padding: 20px 0;   
+}
+
+/*FOOTER*/
+footer{
+  background-color: #0066ff;
+  margin: 0%;
+}
+
+.colorboto{
+  color:#ffffff;
+}
+
+/*TIPOGRAFIA*/
+  @font-face {
+    font-family: 'MiFuente';
+    src:url('./fonts/Horizon-updated/horizon.otf') format ('truetype')
+  }
